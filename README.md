@@ -1,7 +1,13 @@
 # FluxLib
 A mod for [Atlyss](https://store.steampowered.com/app/2768430/ATLYSS/) that aims to provide easy to digest methods to create custom content for mod creators.
 
-## What can I do?
+## Installation
+- Install [Atlyss](https://store.steampowered.com/app/2768430/ATLYSS/)
+- Install [BepInEx 5.4](https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.2)
+- Install [FluxLib](https://github.com/sophfee/FluxLib/releases)
+- Launch the game.
+
+## What can this mod do?
 With the current version of FluxLib, you can...
 
 - [x] Create custom trade items.
