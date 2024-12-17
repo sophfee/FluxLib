@@ -196,23 +196,7 @@ namespace FluxLib
 			)
 			{
 
-				FluxLibPlugin.Log.LogInfo("GameManager_Cache_ScriptableAssets Prefix"); 
-
-				ScriptableQuest scriptableQuest = ScriptableQuest.CreateInstance<ScriptableQuest>();
-				scriptableQuest._questName = "Sex with Angela";
-				scriptableQuest._questDescription = "holy fuck";
-				scriptableQuest._questType = QuestType.REPEATABLE;
-				scriptableQuest._questLevel = 1;
-				scriptableQuest._questCompleteReturnMessage = "Return to Angela in Sanctum";
-				scriptableQuest._questObjective = new QuestObjective
-				{
-					_questCreepRequirements = new QuestCreepRequirement[0] { }
-				};
-				scriptableQuest._autoFinishQuest = false;
-				scriptableQuest._requireNoviceClass = false;
-				scriptableQuest.name = "(lvl-1) QUEST_Sex with Angela";
-				____cachedScriptableQuests.Add(scriptableQuest._questName, scriptableQuest);
-				_angelaQuests.Add(scriptableQuest);
+				FluxLibPlugin.Log.LogInfo("GameManager_Cache_ScriptableAssets Prefix");
 
 				foreach (var item in CustomItems)
 				{

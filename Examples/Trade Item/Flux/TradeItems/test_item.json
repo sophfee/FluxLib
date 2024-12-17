@@ -1,0 +1,18 @@
+{
+    "itemName": "Sophie's Test Item",
+    "itemDescription": "This is a test item for Sophie.",
+    "itemType": 2,
+    "itemSortTag": 1,
+    "itemIcon": "test.png",
+    "iconIsExternal": true,
+    "price": 1000,
+    "maxStack": 1,
+    "itemRarity": 3,
+    "vendorData": [
+        {
+            "vendorName": "_npc_Sally",
+            "isGambleSlot": false,
+            "gambleCost": 10000   
+        }
+    ]
+}
